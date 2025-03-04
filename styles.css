@@ -1006,7 +1006,7 @@ body{
         background-color: #212121;
         z-index: 500;
         box-shadow: 0 40px 60px rgba(0,0,0,0.1);
-        padding: 700px 0px 0px 10px;
+        padding: 725px 0px 0px 10px;
         transition: right 0.3s ease;
         font-size: 1rem;
     }
