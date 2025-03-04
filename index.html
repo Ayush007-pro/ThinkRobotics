@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ThinkRobotics</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ThinkRobotics - Your one-stop shop for robotics kits, electronics components, and DIY project bundles.">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/thinkRobotics_icon.png">
+
+    <!-- these links inports font styles from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- this link imports svg icons from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+</head>
+
+<!-- 
+    - **Introduction**
+    - **Category** (mentioned below)
+    - **Bestsellers** (Highlight top-selling items)
+    - **New Arrivals** (Latest products)
+    - **Deals of the Week** (Discounted/Combo packs)
+    - **Project Bundles** (Complete kits for specific projects) 
+-->
+
+<!-- 
+Development Boards and Microcontrollers
+Input Devices
+Output Devices
+Modules and Programmers
+Mechanical Parts
+
+Circuit Building
+Electronic Components
+Power Supply
+Tools
+Fabrication 
+-->
+
+<body>
+
+<!-- NAVIGATION -->
+    <div class="nav_header header_font">
+
+        <div class="nav_header_hide">
+            <ul>
+                <li>
+                    <div>
+                        <a href="tel:18002666123">1800 266 6123</a>
+                    </div>
+                </li>
+                <div>
+                    <span>|</span>
+                </div>
+                <li>
+                    <div>
+                        <a href="#">Customer Support</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li>
+                    <div>
+                        <a>My Orders</a>
+                    </div>
+                </li>
+                <div>
+                    <span>|</span>
+                </div>
+                <li>
+                    <div>
+                        <a>Track Your Order</a>
+                    </div>
+                </li>
+                <div>
+                    <span>|</span>
+                </div>
+                <li>
+                    <div>
+                        <a>My Account</a>
+                    </div>
+                </li>
+                <div class="nav_header_hide">
+                    <span>|</span>
+                </div>
+                <li class="nav_header_hide">
+                    <div>
+                        <a><img class="social_media_icon" src="./assets/meta.svg" alt="Meta"></a>
+                    </div>
+                </li>
+                <div class="nav_header_hide">
+                    <span>|</span>
+                </div>
+                <li class="nav_header_hide">
+                    <div>
+                        <a><img class="social_media_icon" src="./assets/x-social.svg" alt="X"></a>
+                    </div>
+                </li>
+                <div class="nav_header_hide">
+                    <span>|</span>
+                </div>
+                <li class="nav_header_hide">
+                    <div>
+                        <a><img class="social_media_icon" src="./assets/linkedin.svg" alt="Linkedin"></a>
+                    </div>
+                </li>
+                <div class="nav_header_hide">
+                    <span>|</span>
+                </div>
+                <li class="nav_header_hide">
+                    <div>
+                        <a><img class="social_media_icon" src="./assets/instagram.svg" alt="Instagram"></a>
+                    </div>
+                </li>
+                <div class="nav_header_hide">
+                    <span>|</span>
+                </div>
+                <li class="nav_header_hide">
+                    <div>
+                        <a><img class="social_media_icon" src="./assets/youtube.svg" alt="Youtube"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="header search-bar_font">
+        <div class="logo_container"><a href="#"><img src="./assets/think-robotics_logo.avif" alt="Logo"></a></div>
+        <div class="search-bar_container">
+            <div class="search-form_container">
+                <div>
+                    <input type="text" placeholder="Keywords...">
+                    <button class="voice_button">
+                        <span class="material-symbols-outlined voice_button_icon">mic</span>
+                    </button>
+                    <button class="search_button">
+                        <span class="material-symbols-outlined search_button_icon">search</span>
+                    </button>
+                </div>
+            </div>
+            <div class="my_cart">
+                <span class="cart-total">
+                    <span class="cart-total_label">Total</span>
+                    <span class="cart-total_price">₹ 0.00</span>
+                </span>
+                <a href="#">
+                    <a class="cart_icon"><span class="material-symbols-outlined">shopping_cart</span></a>
+                    <span><!-- number of items in cart --></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="header_btns_wrapper" id="mobile">
+            <div class="search_btn_res">
+                <a><span class="material-symbols-outlined search_button_icon">search</span></a>
+            </div>
+            <div class="cart_btn_res">
+                <a><span class="material-symbols-outlined search_button_icon">shopping_cart</span></a>
+            </div>
+            <div class="menu_btn_res">
+                <a><span class="material-symbols-outlined search_button_icon">menu</span></a>
+            </div>
+        </div>
+
+        <div class="category_header_container" id="mobile">
+
+            <div class="menu" id="close-menu">
+                <a class="menu_toggle close-menu">
+                    <span class="material-symbols-outlined">close</span>
+                </a>
+            </div>
+            <div class="menu">
+                <a class="menu_toggle" style="gap: 10px;">
+                    <span class="material-symbols-outlined">home</span><span>Home</span>
+                </a>
+            </div>
+            <div class="menu">
+                <a class="menu_toggle">
+                    <span>Boards and Programmers</span>
+                </a>
+                <!-- <div class="sub_menu">
+                    <a>Raspberry Pi</a>
+                    <a>Arduino</a>
+                    <a>Development Board</a>
+                    <a>ARM Microcontroller Board</a>
+                    <a>Programmers</a>
+                </div> -->
+            </div>
+            <div class="menu">
+                <a class="menu_toggle">
+                    <span>Sensors & Module</span>
+                </a>
+                <!-- <div class="sub_menu">
+                    <a>Modules</a>
+                    <a>Sensors</a>
+                    <a>Multimeter</a>
+                    <a>Display Devices</a>
+                    <a>Cooling Fan</a>
+                </div> -->
+            </div>
+            <div class="menu">
+                <a class="menu_toggle">
+                    <span>Electronic Components</span>
+                </a>
+                <!-- <div class="sub_menu">
+                    <a>ICs</a>
+                    <a>Microcontrollers</a>
+                    <a>Small Components</a>
+                    <a>PCB and Solder</a>
+                    <a>Switches</a>
+                    <a>Magnets</a>
+                </div> -->
+            </div>
+            <div class="menu">
+                <a class="menu_toggle">
+                    <span>Power Supply</span>
+                </a>
+                <!-- <div class="sub_menu">
+                    <a>Adapter</a>
+                    <a>Battery</a>
+                    <a>Transformer</a>
+                </div> -->
+            </div>
+            <div class="menu">
+                <a class="menu_toggle">
+                    <span>Robotics</span>
+                </a>
+                <!-- <div class="sub_menu">
+                    <a>3D Printer</a>
+                    <a>Robot Parts</a>
+                    <a>Cameras</a>
+                    <a>Motor</a>
+                    <a>Mechanical Parts</a>
+                </div> -->
+            </div>
+            <div class="menu">
+                <a class="menu_toggle">
+                    <span>Tools & Connectors</span>
+                </a>
+                <!-- <div class="sub_menu">
+                    <a>Connector</a>
+                    <a>Screwdriver</a>
+                    <a>Plier</a>
+                    <a>Wire Cutter/Stripper</a>
+                    <a>Wires & Cables</a>
+                </div> -->
+            </div>
+            <div class="menu">
+                <a class="menu_toggle">
+                    <span>Bulk Enquiry</span>
+                </a>
+            </div>
+            <div class="menu">
+                <a class="menu_toggle">
+                    <span>Career</span>
+                </a>
+            </div>
+            <br id="mobile_400">
+            <br id="mobile_400">
+            <div class="menu" id="mobile_400">
+                <a class="menu_toggle">
+                    <span>My Account</span>
+                </a>
+            </div>
+            <div class="menu" id="mobile_400">
+                <a class="menu_toggle">
+                    <span>My Orders</span>
+                </a>
+            </div>
+            <div class="menu" id="mobile_400">
+                <a class="menu_toggle">
+                    <span>Track Your Order</span>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div class="category_header category_font">
+        <nav>
+            <div class="category_header_container">
+
+                <div class="menu" style="padding-right: 1rem;">
+                    <a class="menu_toggle">
+                        <span class="material-symbols-outlined">home</span>
+                    </a>
+                </div>
+                <div class="menu">
+                    <a class="menu_toggle">
+                        <span>Boards and Programmers</span><span class="material-symbols-outlined">arrow_drop_down</span>
+                    </a>
+                    <div class="sub_menu">
+                        <a>Raspberry Pi</a>
+                        <a>Arduino</a>
+                        <a>Development Board</a>
+                        <a>ARM Microcontroller Board</a>
+                        <a>Programmers</a>
+                    </div>
+                </div>
+                <div class="menu">
+                    <a class="menu_toggle">
+                        <span>Sensors & Module</span><span class="material-symbols-outlined">arrow_drop_down</span>
+                    </a>
+                    <div class="sub_menu">
+                        <a>Modules</a>
+                        <a>Sensors</a>
+                        <a>Multimeter</a>
+                        <a>Display Devices</a>
+                        <a>Cooling Fan</a>
+                    </div>
+                </div>
+                <div class="menu">
+                    <a class="menu_toggle">
+                        <span>Electronic Components</span><span class="material-symbols-outlined">arrow_drop_down</span>
+                    </a>
+                    <div class="sub_menu">
+                        <a>ICs</a>
+                        <a>Microcontrollers</a>
+                        <a>Small Components</a>
+                        <a>PCB and Solder</a>
+                        <a>Switches</a>
+                        <a>Magnets</a>
+                    </div>
+                </div>
+                <div class="menu">
+                    <a class="menu_toggle">
+                        <span>Power Supply</span><span class="material-symbols-outlined">arrow_drop_down</span>
+                    </a>
+                    <div class="sub_menu">
+                        <a>Adapter</a>
+                        <a>Battery</a>
+                        <a>Transformer</a>
+                    </div>
+                </div>
+                <div class="menu">
+                    <a class="menu_toggle">
+                        <span>Robotics</span><span class="material-symbols-outlined">arrow_drop_down</span>
+                    </a>
+                    <div class="sub_menu">
+                        <a>3D Printer</a>
+                        <a>Robot Parts</a>
+                        <a>Cameras</a>
+                        <a>Motor</a>
+                        <a>Mechanical Parts</a>
+                    </div>
+                </div>
+                <div class="menu">
+                    <a class="menu_toggle">
+                        <span>Tools & Connectors</span><span class="material-symbols-outlined">arrow_drop_down</span>
+                    </a>
+                    <div class="sub_menu">
+                        <a>Connector</a>
+                        <a>Screwdriver</a>
+                        <a>Plier</a>
+                        <a>Wire Cutter/Stripper</a>
+                        <a>Wires & Cables</a>
+                    </div>
+                </div>
+                <div class="menu">
+                    <a class="menu_toggle">
+                        <span style="padding-top: 2px;">Bulk Enquiry</span>
+                    </a>
+                </div>
+
+            </div>
+        </nav>
+        <div>
+            <div>
+                <div class="menu">
+                    <a class="menu_toggle">
+                        <span>Careers</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<!-- INTRODUCTION -->
+    <div class="intro_wrapper">
+        <div class="intro_card-btn_container">
+            <button class="intro_card-btn intro_prev-btn"><span class="material-symbols-outlined">arrow_back_ios</span></button>
+            <button class="intro_card-btn intro_next-btn"><span class="material-symbols-outlined">arrow_forward_ios</span></button>
+        </div>
+        <div class="intro_wrapper_container">
+            <div class="intro_card_container">
+                <img src="./assets/intro_pics/intro_00.jpg">
+            </div>
+            <div class="intro_card_container">
+                <img src="./assets/intro_pics/intro_01.jpg">
+            </div>
+            <div class="intro_card_container">
+                <img src="./assets/intro_pics/intro_02.jpg">
+            </div>
+            <div class="intro_card_container">
+                <img src="./assets/intro_pics/intro_03.jpg">
+            </div>
+            <div class="intro_card_container">
+                <img src="./assets/intro_pics/intro_04.jpg">
+            </div>
+        </div>
+    </div>
+
+<!-- CATEGORIES -->
+    <div class="title_wrapper_without_btns heading_font" id="category_heading">
+        <div class="title">Categories</div>
+    </div>
+    <div class="main_category subHeading_font">
+        <div class="category_cards">
+            <div class="category_image"><img src="./assets/category/developement_boards.jpg"></div>
+            <div class="category_details_wrapper">
+                <div class="category_details">Development Boards</div>
+                <div class="category_details">and</div>
+                <div class="category_details">Microcontrollers</div>
+            </div>
+        </div>
+        <div class="category_cards">
+            <div class="category_image"><img src="./assets/category/input.jpg"></div>
+            <div class="category_details_wrapper">    
+                <div class="category_details">Input Devices</div>
+            </div>
+        </div>
+        <div class="category_cards">
+            <div class="category_image"><img src="./assets/category/output.png"></div>
+            <div class="category_details_wrapper">    
+                <div class="category_details">Output Devices</div>
+            </div>
+        </div>
+        <div class="category_cards">
+            <div class="category_image"><img src="./assets/category/modules_and_programmers.png"></div>
+            <div class="category_details_wrapper">    
+                <div class="category_details">Modules and Programmers</div>
+            </div>
+        </div>
+        <div class="category_cards">
+            <div class="category_image"><img src="./assets/category/power_supply.jpg"></div>
+            <div class="category_details_wrapper">    
+                <div class="category_details">Mechanical Parts</div>
+            </div>
+        </div>
+        <div class="category_cards">
+            <div class="category_image"><img src="./assets/category/tools.jpg"></div>
+            <div class="category_details_wrapper">    
+                <div class="category_details">Circuit Building</div>
+            </div>
+        </div>
+        <div class="category_cards">
+            <div class="category_image"><img src="./assets/category/electronic_components.jpg"></div>
+            <div class="category_details_wrapper">    
+                <div class="category_details">Electronic Components</div>
+            </div>
+        </div>
+        <div class="category_cards">
+            <div class="category_image"><img src="./assets/category/circuit_building.jpg"></div>
+            <div class="category_details_wrapper">    
+                <div class="category_details">Power Supply</div>
+            </div>
+        </div>
+        <div class="category_cards">
+            <div class="category_image"><img src="./assets/category/mechanical_parts.jpg"></div>
+            <div class="category_details_wrapper">    
+                <div class="category_details">Tools</div>
+            </div>
+        </div>
+        <div class="category_cards">
+            <div class="category_image"><img src="./assets/category/fabrication.jpg"></div>
+            <div class="category_details_wrapper">    
+                <div class="category_details">Fabrication</div>
+            </div>
+        </div>
+
+    </div>
+
+<!-- BESTSELLERS -->
+    <div class="title_wrapper heading_font">
+        <div class="title">Bestsellers</div>
+        <div class="card-btn_container">
+            <button class="card-btn prev-btn"><span class="material-symbols-outlined">arrow_left_alt</span></button>
+            <button class="card-btn next-btn"><span class="material-symbols-outlined">arrow_right_alt</span></button>
+        </div>
+    </div>
+    <div class="main_wrapper">
+        <div class="wrapper_container">
+            <div class="card_container">
+                <div class="card">
+                    <img src="./assets/bestsellers/Solderless-400-pin-breadboard-Normal-Quality-Without-Packing-4-314x252.jpeg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Solderless 400-pin Breadboard</div>
+                        <div class="card_price price_font-level-1">₹249</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container">
+                <div class="card">
+                    <img src="./assets/bestsellers/Raspberry-PI-Pico-4-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Raspberry Pi Pico</div>
+                        <div class="card_price price_font-level-1">₹332</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container">
+                <div class="card">
+                    <img src="./assets/bestsellers/Raspberry-Pi-4-Model-B-with-4-GB-RAM-1-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Raspberry Pi 4 Model B (4GB RAM)</div>
+                        <div class="card_price price_font-level-1">₹4,765</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container">
+                <div class="card">
+                    <img src="./assets/bestsellers/Original-Arduino-Uno-Rev3-A000066-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Raspberry Pi 4 Model B</div>
+                        <div class="card_price price_font-level-1">₹4,565</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container">
+                <div class="card">
+                    <img src="./assets/bestsellers/Official-Arduino-Nano-3-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Arduino Nano</div>
+                        <div class="card_price price_font-level-1">₹2,075</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container">
+                <div class="card">
+                    <img src="./assets/bestsellers/Noel-Solder-Wire-6040-1.00mm-10gm-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Noel Solder Wire (10gm)</div>
+                        <div class="card_price price_font-level-1">₹249</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container">
+                <div class="card">
+                    <img src="./assets/bestsellers/motor-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Generic Motor</div>
+                        <div class="card_price price_font-level-1">₹330</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container">
+                <div class="card">
+                    <img src="./assets/bestsellers/DC-Motor-10RPM-12Volts_Plastic-Gear-Box_2068_1-1-314x252.jpeg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">DC Motor (10 RPM, 12V, Plastic Gear Box)</div>
+                        <div class="card_price price_font-level-1">₹415</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container">
+                <div class="card">
+                    <img src="./assets/bestsellers/Arduino-Mega-2560-ATmega2560-4-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Arduino Mega 2560</div>
+                        <div class="card_price price_font-level-1">₹4,110</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container">
+                <div class="card">
+                    <img src="./assets/bestsellers/Adafruit-Feather-M0-Adalogger-1-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Adafruit Feather M0 Adalogger</div>
+                        <div class="card_price price_font-level-1">₹1,660</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container">
+                <div class="card">
+                    <img src="./assets/bestsellers/470-uF-50V-Through-Hole-Electrolytic-Capacitor-2-314x252.png">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">470uF 50V Capacitor</div>
+                        <div class="card_price price_font-level-1">₹83</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container">
+                <div class="card">
+                    <img src="./assets/bestsellers/2N2222-NPN-Transistor-1-314x252.png">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">2N2222 NPN Transistor</div>
+                        <div class="card_price price_font-level-1">₹12</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container">
+                <div class="card">
+                    <img src="./assets/bestsellers/23741_Orange-2200mAh-3S-30C_60C-11.1VLithium-Polymer-Battery-Pack-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Orange 2200mAh 3S LiPo Battery</div>
+                        <div class="card_price price_font-level-1">₹1,245</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container">
+                <div class="card">
+                    <img src="./assets/bestsellers/17745-SparkFun_Thing_Plus_-_RP2040-01a-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">SparkFun Thing Plus RP2040</div>
+                        <div class="card_price price_font-level-1">₹1,619</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container">
+                <div class="card">
+                    <img src="./assets/bestsellers/10kΩ-0.2W-6-Pin-2-Gang-Rotary-Carbon-Potentiometer-15mm-1-314x252.jpeg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">10kΩ Potentiometer</div>
+                        <div class="card_price price_font-level-1">₹125</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- NEW ARRIVALS -->
+    <div class="title_wrapper heading_font">
+        <div class="title">New Arrivals</div>
+        <div class="card-btn_container">
+            <button class="card-btn prev-btn_1"><span class="material-symbols-outlined">arrow_left_alt</span></button>
+            <button class="card-btn next-btn_1"><span class="material-symbols-outlined">arrow_right_alt</span></button>
+        </div>
+    </div>
+    <div class="main_wrapper_1">
+        <div class="wrapper_container_1">
+            <div class="card_container_1">
+                <div class="card">
+                    <img id="exceptional_image" src="./assets/new_arrivals/Transparent-830-Points-Solderless-Breadboard-6-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Transparent 830-Point Solderless Breadboard</div>
+                        <div class="card_price price_font-level-1">₹400</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container_1">
+                <div class="card">
+                    <img src="./assets/new_arrivals/STMICROELECTRONICS-B-L4S5I-IOT01A-Discovery-Kit-STM32L4S5VIT6-Internet-of-Things-IoT-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">STMICROELECTRONICS B-L4S5I-IOT01A Discovery Kit</div>
+                        <div class="card_price price_font-level-1">₹4,220</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container_1">
+                <div class="card">
+                    <img src="./assets/new_arrivals/SparkFun-Qwiic-Micro-SAMD21-Development-Board-1-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">SparkFun Qwiic Micro SAMD21 Development Board</div>
+                        <div class="card_price price_font-level-1">₹1,650</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container_1">
+                <div class="card">
+                    <img src="./assets/new_arrivals/Sipeed-Lichee-RV-Dock-Allwinner-D1-SoC-RISC-V-Linux-Development-Kit-6-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Sipeed Lichee RV-Dock Allwinner D1 SoC RISC-V Linux Development Kit</div>
+                        <div class="card_price price_font-level-1">₹2,280</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container_1">
+                <div class="card">
+                    <img src="./assets/new_arrivals/Raspberry-Pi-Pico-W_Raspberry-Pi-Boards-amp-Official-Accessories_51556_1-314x252.png">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Raspberry Pi Pico</div>
+                        <div class="card_price price_font-level-1">₹581</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container_1">
+                <div class="card">
+                    <img id="exceptional_image" src="./assets/new_arrivals/Raspberry-Pi-4-Model-B-8GB-Starter-Kit-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Raspberry Pi 4 Model B 8GB Starter Kit</div>
+                        <div class="card_price price_font-level-1">₹5,460</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container_1">
+                <div class="card">
+                    <img src="./assets/new_arrivals/pot-17-314x252.png">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">17kΩ Potentiometer</div>
+                        <div class="card_price price_font-level-1">₹168</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container_1">
+                <div class="card">
+                    <img src="./assets/new_arrivals/noel-flux-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Noel Flux Soldering Paste</div>
+                        <div class="card_price price_font-level-1">₹166</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container_1">
+                <div class="card">
+                    <img src="./assets/new_arrivals/chall.12-3-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">12V, 3A Motor</div>
+                        <div class="card_price price_font-level-1">₹860</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container_1">
+                <div class="card">
+                    <img src="./assets/new_arrivals/bevel21-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Bevel Gear Motor</div>
+                        <div class="card_price price_font-level-1">₹2,230</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container_1">
+                <div class="card">
+                    <img src="./assets/new_arrivals/Arduino-UNO-R4-WiFi-ABX00087-4-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Arduino UNO R4 WiFi</div>
+                        <div class="card_price price_font-level-1">₹2,560</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container_1">
+                <div class="card">
+                    <img src="./assets/new_arrivals/Arduino-Nano-33-BLE-Sense-2-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Arduino Nano 33 BLE Sense</div>
+                        <div class="card_price price_font-level-1">₹2,075</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container_1">
+                <div class="card">
+                    <img id="exceptional_image" src="./assets/new_arrivals/Acrylcoat-AR-30-Conformal-Coating-for-PCB-Assemblies-Solderable-500ml--314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Acrylcoat AR-30 Conformal Coating for PCB Assemblies, Solderable, 500ml</div>
+                        <div class="card_price price_font-level-1">₹422</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container_1">
+                <div class="card">
+                    <img src="./assets/new_arrivals/23779_Orange-8000mAh-3S-30C_60C-11.1V-Lithium-Polymer-Battery-Pack-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Orange 8000mAh 3S 30C/60C 11.1V Lithium Polymer Battery Pack</div>
+                        <div class="card_price price_font-level-1">₹5,270</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container_1">
+                <div class="card">
+                    <img src="./assets/new_arrivals/1mH-9x12mm-Radial-Leaded-Power-Inductor-314x252.png">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">1mH 9x12mm Radial Leaded Power Inductor</div>
+                        <div class="card_price price_font-level-1">₹15</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<!-- DEALS OF THE WEEK -->
+    <div id="deals_of_the_week" class="title_wrapper_without_btns heading_font">
+        <div class="title">Deals Of The Week</div>
+        <div class="card-btn_container" id="mobile">
+            <button class="card-btn prev-btn_2"><span class="material-symbols-outlined">arrow_left_alt</span></button>
+            <button class="card-btn next-btn_2"><span class="material-symbols-outlined">arrow_right_alt</span></button>
+        </div>
+    </div>
+    <div class="main_wrapper_dow">
+        <div class="wrapper_container_dow">
+            <div class="card_container_dow">
+                <div class="card">
+                    <img src="./assets/deals_of_the_week/Micro-Bit-Motor-Drive-Breakout-Board-Shield-5-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Micro-Bit Motor Drive Breakout Board Shield</div>
+                        <div class="card_price price_font-level-1">₹300</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container_dow">
+                <div class="card">
+                    <img src="./assets/deals_of_the_week/159831_Orange-6200mAh-4S-35C_70C-14.8V-Lithium-Polymer-Battery-Pack-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Orange 6200mAh 4S LiPo Battery Pack</div>
+                        <div class="card_price price_font-level-1">₹3,500</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_container_dow">
+                <div class="card">
+                    <img src="./assets/deals_of_the_week/timer-camera-2-314x252.jpg">
+                    <div class="card_content">
+                        <div class="card_name detail_font-level-1">Camera Module</div>
+                        <div class="card_price price_font-level-1">₹1000</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="card_buy_btn order_btn_font">
+                        <a>Add to Cart<span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- PROJECT BUNDLES -->
+    <div class="title_wrapper_without_btns heading_font">
+        <div class="title">Project Bundles</div>
+    </div>
+    <div class="project_bundles">
+        <div class="project_cards">
+            <img src="./assets/project_bundles/1_shutterstock_299468468_720x.jpg">
+            <div class="spacer"></div>
+            <div class="project_details_wrapper project_card_upper">
+                <div class="project_heading subHeading_font">Sky High Drone Bundle</div>
+                <div class="project_details detail_font-level-1">Reach New Heights with Your Own Drone</div>
+            </div>
+        </div>
+        <div class="project_cards">
+            <div class="project_details_wrapper project_card_bottom">
+                <div class="project_heading subHeading_font">Code and Create Bundle</div>
+                <div class="project_details detail_font-level-1">Code Your Way to Creativity</div>
+            </div>
+            <div class="spacer"></div>
+            <img src="./assets/project_bundles/2_EDUBIT-Training-Project-Kit-for-microbit-4.jpg">
+        </div>
+        <div class="project_cards">
+            <img src="./assets/project_bundles/3_shutterstock_603884168_720x.jpg">
+            <div class="spacer"></div>
+            <div class="project_details_wrapper project_card_upper">
+                <div class="project_heading subHeading_font">Robot Builder's Bundle</div>
+                <div class="project_details detail_font-level-1">Build, Program, and Bring Robots to Life</div>
+            </div>
+        </div>
+        <div class="project_cards">
+            <div class="project_details_wrapper project_card_bottom">
+                <div class="project_heading subHeading_font">Young Engineer's Bundle</div>
+                <div class="project_details detail_font-level-1">Discover the Engineer Within</div>
+            </div>
+            <div class="spacer"></div>
+            <img src="./assets/project_bundles/4_diy_02_720x.jpg">
+        </div>
+    </div>
+
+<!-- -------------- -->
+
+    <div class="dropdown-section_wrapper" id="mobile">
+        <div class="dropdown-section">
+            <div class="header_wrapper_res">
+                <span class="title_res">Information</span>
+                <span class="material-symbols-outlined arrow">arrow_drop_down</span>
+            </div>
+            <div class="options_wrapper">
+                <a href="#">Track Your Order</a>
+                <a href="#">Videos</a>
+                <a href="#">FAQ</a>
+                <a href="#">Careers</a>
+            </div>
+        </div>
+    
+        <div class="dropdown-section">
+            <div class="header_wrapper_res">
+                <span class="title_res">My Account</span>
+                <span class="material-symbols-outlined arrow">arrow_drop_down</span>
+            </div>
+            <div class="options_wrapper">
+                <a href="#">Cart</a>
+                <a href="#">Checkout</a>
+                <a href="#">My Account</a>
+                <a href="#">Payment Options</a>
+            </div>
+        </div>
+    
+        <div class="dropdown-section">
+            <div class="header_wrapper_res">
+                <span class="title_res">Services</span>
+                <span class="material-symbols-outlined arrow">arrow_drop_down</span>
+            </div>
+            <div class="options_wrapper">
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">B2B Service</a>
+            </div>
+        </div>
+    
+        <div class="dropdown-section">
+            <div class="header_wrapper_res">
+                <span class="title_res">Polices</span>
+                <span class="material-symbols-outlined arrow">arrow_drop_down</span>
+            </div>
+            <div class="options_wrapper">
+                <a href="#">Investor Relations</a>
+                <a href="#">MACFOS CSR</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Services</a>
+                <a href="#">Shipping and Refund</a>
+                <a href="#">E-Waste Collection</a>
+            </div>
+        </div>
+    </div>
+
+<!-- FOOTER -->
+    <div class="footer">
+        <div class="footer_logo">
+            <img class="footer_logo_img" src="./assets/think-robotics_logo.avif">
+            <div class="footer_social_logo_wrapper">
+                <ul>
+                    <li>
+                        <div>
+                            <a><img class="social_media_icon" src="./assets/meta.svg" alt="Meta"></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a><img class="social_media_icon" src="./assets/x-social.svg" alt="X"></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a><img class="social_media_icon" src="./assets/linkedin.svg" alt="Linkedin"></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a><img class="social_media_icon" src="./assets/instagram.svg" alt="Instagram"></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a><img class="social_media_icon" src="./assets/youtube.svg" alt="Youtube"></a>
+                        </div>
+                    </li>
+                </ul>
+    
+            </div>
+            <div class="copyright footer_font-level-2">&copy; 2025, ThinkRobotics.com</div>
+        </div>
+        <div class="quick_links_wrapper">
+            <div class="quick_links footer_font-level-3">
+                <div class="quick_links_heading footer_font-level-1">Information</div>
+                <a>Track Your Order</a>
+                <a>Videos</a>
+                <a>FAQ</a>
+                <a>Careers</a>
+            </div>
+            <div class="quick_links footer_font-level-3">
+                <div class="quick_links_heading footer_font-level-1">My Account</div>
+                <a>Cart</a>
+                <a>Checkout</a>
+                <a>My Account</a>
+                <a>Payment Options</a>
+            </div>
+            <div class="quick_links footer_font-level-3">
+                <div class="quick_links_heading footer_font-level-1">Services</div>
+                <a>About Us</a>
+                <a>Contact Us</a>
+                <a>B2B Service</a>
+            </div>
+            <div class="quick_links footer_font-level-3">
+                <div class="quick_links_heading footer_font-level-1">Policies</div>
+                <a>Investor Relations</a>
+                <a>MACFOS CSR</a>
+                <a>Privacy Policiy</a>
+                <a>Terms of Services</a>
+                <a>Shipping & Refund</a>
+                <a>E-Waste Collection</a>
+            </div>
+        </div> 
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
